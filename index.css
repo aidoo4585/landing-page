@@ -1,0 +1,98 @@
+*{ 
+    box-sizing: border-box;
+}
+
+.main-container{ 
+    width: 100%;
+    height: 100%;
+}
+
+.picture-section{ 
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.picture-container{ 
+    display: flex;
+    justify-content: space-around;
+}
+.picture-container img{ 
+    width: 150px;
+    height: auto;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: blue;
+    flex-shrink: 1;
+}
+
+
+
+.quote-section{ 
+    background-color: #E5E7EB;
+    width: 100%;
+    padding: 50px;
+}
+.quote-text{ 
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 60%;
+    margin: auto;
+}
+.quote-text h6{ 
+    text-align: right;
+    font-style: normal;
+}
+
+.bottom-section{ 
+    background-color: white;
+    width: 100%;
+    padding: 100px;
+    color: white;
+}
+
+.sign-up-card{ 
+    width: 65%;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+}
+
+ .sign-up-text h3{ 
+    color: white;
+    margin: 0;        
+    font-size: 20px;
+ }
+
+ .sign-up-text p{
+    font-size: small;
+    font-style: oblique;
+    margin: 0;
+ }
+ 
+.sign-up-card button{ 
+    color: white;
+    background-color: #3882F6;
+    border-color:white;
+    border-radius: 5px;
+    border-style: solid;
+    width: 8%;
+    height: 8%;
+    padding: 2px;
+    margin: auto;
+    margin-right: 40px;
+}
+
+.footer-section { 
+    background-color: #1F2937;
+    width: 100%;
+    padding: 20px; /* Add some padding for visibility */
+    color: #fff;
+    text-align: center;
+    font-size: small;
+}
